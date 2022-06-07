@@ -1,4 +1,5 @@
 //Criar objeto de icones do Mondrian - utilizados para conparadores em cards de produtos.
+var files = [];
 document.querySelectorAll(`#cro img[src]`).forEach((item)=>{
     var arr = item.getAttribute(`src`);    
     var arr1 = arr.split(`/`);
